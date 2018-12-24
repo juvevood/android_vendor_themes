@@ -1,5 +1,5 @@
 # Boot Animation
-scr_resolution := 1080x1920
+scr_resolution := 1080x2160
 du_device := $(patsubst %f,%,$(subst du_,,$(TARGET_PRODUCT)))
 
 ifneq ($(filter taimen,$(du_device)),)
